@@ -1,0 +1,64 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Header */
+.header {
+    background-color:#006766;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Main Carrousel */
+.carrousel {
+    border: red solid;
+}
+.img-carrousel {
+}
+/* Main contactanos */
+
+.contacto {
+    background-color: #006766;
+    margin-bottom: 30px;
+    color: white;
+    padding: 20px;
+}
+
+/* Main Tabla */
+
+.titulo-1{
+    color: blue;
+}
+.titulo-2{
+    color: aqua;
+}
+.titulo-3{
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #006766;
+}
+
+.ul-list {
+    list-style-type: none;
+}
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
