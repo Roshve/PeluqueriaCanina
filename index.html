@@ -33,7 +33,7 @@
           alt="dogs"
         />
       </section>
-      <section class="tabla">
+      <section class="novedades">
         <h2>Novedades</h2>
         <div>
           <h3>Lorem Ipsu</h3>
@@ -47,7 +47,7 @@
           <img src="" alt="Novedades" />
         </div>
       </section>
-      <section>
+      <section class="tabla">
         <table border="1">
           <tr>
             <th class="titulo1">Beneficios</th>
@@ -113,55 +113,49 @@
         </table>
       </section>
       <section class="contacto">
-        <h2>Contacto</h2>
-        <div>
+        <div class="contactoLeft">
           <h3>Contactanos</h3>
           <p>
-            Completá con los datos pedidos y así podremos ayudarte. Recordá
+            Completá con los datos pedidos y así podremos ayudarte.<br><br> Recordá
             antes consultar las preguntas frecuentes
           </p>
+          
         </div>
-        <form action="#" method="POST">
-          Información del Contacto
-          <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" />
-          </div>
-          <div>
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" />
-          </div>
-          <div>
-            <label for="mail">Mail</label>
-            <input type="email" name="mail" />
-          </div>
-          <div>
-            <label for="mascota">Hij@ /Mascota</label>
-            <select name="mascota">
-              <option value="perro" selected>Perro</option>
-              <option value="gato">Gato</option>
-              <option value="otros">Otros</option>
-            </select>
-          </div>
-          <div>
-            <input type="checkbox" id="terminos" />
-            <label for="terminos" name="terminos"
-              >Aceptas terminos y condiciones</label
-            >
-          </div>
-          <div>
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar Formulario" />
-          </div>
-        </form>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.4321633295012!2d-69.22873693514123!3d-51.6152922499494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb6feabafd42677%3A0x3535a63b86cc27aa!2sAv.%20Pres.%20Dr.%20Nestor%20C.%20Kirchner%201853%2C%20Z9403%20R%C3%ADo%20Gallegos%2C%20Santa%20Cruz!5e0!3m2!1ses-419!2sar!4v1631313523377!5m2!1ses-419!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+        <div class="contactoRight">
+          <form action="#" method="POST">
+            Información del Contacto
+            <div>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" />
+            </div>
+            <div>
+              <label for="apellido">Apellido</label>
+              <input type="text" name="apellido" />
+            </div>
+            <div>
+              <label for="mail">Mail</label>
+              <input type="email" name="mail" />
+            </div>
+            <div>
+              <label for="mascota">Hij@ /Mascota</label>
+              <select name="mascota">
+                <option value="perro" selected>Perro</option>
+                <option value="gato">Gato</option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+            <div>
+              <input type="checkbox" id="terminos" />
+              <label for="terminos" name="terminos"
+                >Aceptas terminos y condiciones</label
+              >
+            </div>
+            <div>
+              <input type="submit" value="Enviar" />
+              <input type="reset" value="Limpiar Formulario" />
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="footer">

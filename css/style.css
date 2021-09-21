@@ -28,8 +28,34 @@
     background-color: #006766;
     margin-bottom: 30px;
     color: white;
-    padding: 20px;
+    padding: 92px;
+    display: flex;
+    height: 100vh;
 }
+
+.contactoLeft{
+    background-color: #005252;
+    padding: 86px;
+    border-radius: 5px;
+    margin: 0;
+}
+.contactoLeft h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.contactoLeft p {
+    font-size: 18px;
+    margin-top: 55px;
+}
+
+
+.contactoRight{
+    background-color: white;
+    color: black;
+    padding: 78;
+    margin: 0;
+}
+
 
 /* Main Tabla */
 
