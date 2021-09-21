@@ -25,19 +25,21 @@
 /* Main contactanos */
 
 .contacto {
+    display: flex;
     background-color: #006766;
     margin-bottom: 30px;
     color: white;
-    padding: 92px;
-    display: flex;
-    height: 100vh;
+    padding: 90px;
+    justify-content: center;
 }
 
 .contactoLeft{
     background-color: #005252;
     padding: 86px;
     border-radius: 5px;
-    margin: 0;
+    margin:0 auto;
+    width: 576px;
+    height: 570px;
 }
 .contactoLeft h3 {
     font-size: 30px;
@@ -50,12 +52,52 @@
 
 
 .contactoRight{
+    display: flex;
     background-color: white;
     color: black;
-    padding: 78;
-    margin: 0;
+    padding: 78px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 576px;
+    height: 584px;
+    justify-content: center;
 }
 
+.btnInput {
+    width: 380px;
+    height: 50px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+.btnInput::placeholder{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.contactoRight textarea{
+    width: 380px;
+    height: 156px;
+    border-radius: 5px;
+    border: solid 2px;
+    margin-bottom: 37px;
+}
+.contactoRight textarea::placeholder{
+    font-size: 18px;
+    padding: 13px 0px 0px 13px;
+}
+
+.btnSubmit{
+    width: 380px;
+    height: 50px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2E2E2E;
+    background-color: #FCED9C;
+}
 
 /* Main Tabla */
 
