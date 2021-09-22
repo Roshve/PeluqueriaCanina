@@ -3,6 +3,7 @@
 * {
     margin: 0 auto;
     padding: 0 auto;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
 /* Header */
@@ -22,6 +23,9 @@
 }
 .imgCarrousel {
 }
+
+/* Main Servicios */
+
 /* Main contactanos */
 
 .contacto {
@@ -39,7 +43,7 @@
     border-radius: 5px;
     margin:0 auto;
     width: 576px;
-    height: 570px;
+    height: 584px;
 }
 .contactoLeft h3 {
     font-size: 30px;
