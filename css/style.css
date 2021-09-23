@@ -16,7 +16,8 @@
     justify-content: center;
     align-items: center;
 }
- .ulList{
+.ulListNav{
+    list-style-type: none;
     display: flex;
     flex-direction: row;
 }
@@ -139,12 +140,12 @@
     background-color: #006766;
 }
 
-.ulList {
+.ulListFooter {
     list-style-type: none;
 }
 .footerLink {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
 }
