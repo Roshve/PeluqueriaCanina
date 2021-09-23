@@ -8,13 +8,24 @@
 }
 /* Header */
 .header {
+    display: flex;
     background-color:#006766;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .ulList{
+    display: flex;
+    flex-direction: row;
 }
 .navLink {
     color: white;
     text-decoration: none;
+    margin: 20px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 /* Main Carrousel */
