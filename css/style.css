@@ -137,15 +137,32 @@
 
 /* Footer */
 .footer {
+    height: 292px;
+    display: flex;
+    border: solid red;
     background-color: #006766;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgLogo{
+    border:solid red;
 }
 
 .ulListFooter {
+    border: solid red;
     list-style-type: none;
 }
+.redesSociales{
+    color: white;
+    font-weight: bold;
+    border:solid red;
+}
 .footerLink {
+    /* border: solid red; */
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+    border:solid red;
 }
