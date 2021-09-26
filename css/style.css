@@ -38,7 +38,7 @@
     color: var(--secundaryColor);
 }
 .mainNavItem a:active{
-    color: seagreen;
+    color: var(--secundaryColor);;
 }
 
 /* Main Carrousel */
