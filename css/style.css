@@ -43,12 +43,13 @@
 .carrousel {
     margin: 0 auto;
     padding: 0 auto;
+    background: black;
 }
 .mainTitleCarrousel{
     color: var(--fontColorWhite);
     margin: 20vh;
-    position:absolute;
     font-size: 36px;
+    position: absolute;
 }
 .mainTitle{
     font-size: 52px;
@@ -59,12 +60,43 @@
     justify-items: center;
     height: 95vh;
     width: 100%;
-
 }
 
-/* Main Servicios */
+/* ============= Main Novedades ============= */
+.mainNovedades{
+    display: flex;
+    margin: 40px 102px 40px 102px;
+    justify-content: space-between;
+    height: 600px;
+    flex-flow:wrap;
+    width: auto;
+}
+.mainNovedadesCard{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    height: 40vh;
+    border-radius: 12px;
+    box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
+    width: 540px;
+}
 
-/* Main contactanos */
+
+/* ============= Main Servicios ============= */
+
+/* ============= Main Tabla ============= */
+
+.titulo1{
+    color: blue;
+}
+.titulo2{
+    color: aqua;
+}
+.titulo3{
+    color: aquamarine;
+}
+
+/* ============= Main Contactanos ============= */
 
 .contacto {
     display: flex;
@@ -139,19 +171,8 @@
     background-color: #FCED9C;
 }
 
-/* Main Tabla */
 
-.titulo1{
-    color: blue;
-}
-.titulo2{
-    color: aqua;
-}
-.titulo3{
-    color: aquamarine;
-}
-
-/* Main galeria y tienda */
+/* ============= Main galeria y tienda ============= */
 
 .box {
     display: flex;
@@ -161,7 +182,7 @@
 }
 
 
-/* Footer */
+/* ============= Footer ============= */
 .footer {
     height: 292px;
     display: flex;
@@ -185,7 +206,6 @@
     border:solid red;
 }
 .footerLink {
-    /* border: solid red; */
     color: var(--fontColorWhite);
     text-decoration: none;
     font-size: 18px;
