@@ -37,15 +37,27 @@
 .mainNavItem a:hover{
     color: var(--secundaryColor);
 }
-.mainNavItem a:active{
-    color: var(--secundaryColor);;
-}
 
 /* Main Carrousel */
 .carrousel {
-    border: red solid;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.mainTitleCarrousel{
+    color: var(--fontColorWhite);
+    margin: 20vh;
+    position:absolute;
+    font-size: 36px;
+}
+.mainTitle{
+    font-size: 52px;
+    color: var(--secundaryColor);
 }
 .imgCarrousel {
+    display: flex;
+    justify-items: center;
+    height: 95vh;
+    width: 100%;
 }
 
 /* Main Servicios */
@@ -121,7 +133,7 @@
     border: none;
     font-weight: bold;
     font-size: 18px;
-    color: #2E2E2E;
+    color: var(--fontColorBlack);
     background-color: #FCED9C;
 }
 
@@ -166,13 +178,13 @@
     list-style-type: none;
 }
 .redesSociales{
-    color: white;
+    color: var(--fontColorWhite);
     font-weight: bold;
     border:solid red;
 }
 .footerLink {
     /* border: solid red; */
-    color: white;
+    color: var(--fontColorWhite);
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
