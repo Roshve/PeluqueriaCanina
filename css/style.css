@@ -63,23 +63,29 @@
 }
 
 /* ============= Main Novedades ============= */
+.sectionNovedades{
+    background-color: var(--primaryColor);
+}
+
 .mainNovedades{
     display: flex;
-    margin: 40px 102px 40px 102px;
+    padding: 40px 102px 40px 102px;
     justify-content: space-between;
+    align-items: center;
     height: 600px;
     flex-flow:wrap;
     width: auto;
 }
 .mainNovedadesCard{
     display: flex;
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
     flex-direction: column;
     height: 40vh;
     border-radius: 12px;
     box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
     width: 540px;
     padding: 30px;
+    background-color: var(--fontColorWhite);
 }
 .mainNovedadesCard h3{
     margin-bottom: 8px;
@@ -90,7 +96,7 @@
 /* ============= Main Tabla ============= */
 
 .tabla{
-    margin: 101px ;
+    margin: 10px ;
 }
 
 .titulo1{
