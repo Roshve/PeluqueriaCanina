@@ -69,18 +69,16 @@
 
 .mainNovedades{
     display: flex;
-    padding: 40px 102px 40px 102px;
+    padding: 40px 102px;
     justify-content: space-between;
     align-items: center;
-    height: 600px;
     flex-flow:wrap;
     width: auto;
 }
 .mainNovedadesCard{
     display: flex;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px;
     flex-direction: column;
-    height: 40vh;
     border-radius: 12px;
     box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
     width: 540px;
