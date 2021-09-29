@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
-/* Header */
+/* ============= Header ============= */
 .header {
     display: flex;
     background-color:#006766;
@@ -39,7 +39,7 @@
     color: var(--secundaryColor);
 }
 
-/* Main Carrousel */
+/* ============= Main Carrousel ============= */
 .carrousel {
     margin: 0 auto;
     padding: 0 auto;
@@ -91,22 +91,28 @@
 
 /* ============= Main Servicios ============= */
 
-/* ============= Main Tabla ============= */
-
-.tabla{
+.sectionServicio{
+    margin: 20px;
+}
+.containerServicio{
+    display: flex;
     margin: 10px ;
+    border: red solid;
+    flex-flow: wrap;
+    padding: 30px;
 }
 
-.titulo1{
-    color: blue;
+.servicioTitulo{
+    border: solid red;
+    color: var(--primaryColor);
 }
-.titulo2{
-    color: aqua;
+.servicioTitulo h3 {
+    border: solid black;
 }
-.titulo3{
-    color: aquamarine;
+.servicioTodo{
+    align-items: center;
+    color: var(--fontColorBlack);
 }
-
 /* ============= Main Contactanos ============= */
 
 .contacto {
