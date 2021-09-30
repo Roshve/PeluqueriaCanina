@@ -95,19 +95,19 @@
     margin: 20px;
 }
 .containerServicio{
-    display: flex;
-    margin: 10px ;
+    display: grid;
     border: red solid;
-    flex-flow: wrap;
-    padding: 30px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(10, 1fr) ;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    ;
 }
 
 .servicioTitulo{
+    grid-area: titulo;
     border: solid red;
     color: var(--primaryColor);
-}
-.servicioTitulo h3 {
-    border: solid black;
 }
 .servicioTodo{
     align-items: center;
