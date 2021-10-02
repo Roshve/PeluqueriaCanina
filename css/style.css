@@ -106,21 +106,22 @@
 }
 .containerServicio{
     display: grid;
-    border: red solid;
+    border: gray solid;
+    border-radius: 10px;
+    box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
     grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:repeat(10, 1fr) ;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    ;
+    grid-auto-rows: 50px;
 }
 
-.servicioTitulo{
-    grid-area: titulo;
-    border: solid red;
+.servicioHeader, .servicioItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicioHeader{
     color: var(--primaryColor);
 }
-.servicioTodo{
-    align-items: center;
+.servicioItem{
     color: var(--fontColorBlack);
 }
 /* ============= Main Contactanos ============= */
@@ -217,10 +218,6 @@
     background-color: #006766;
     flex-direction: row;
     justify-content: center;
-}
-
-.imgLogo{
-/*     border:solid red; */
 }
 
 .ulListFooter {
