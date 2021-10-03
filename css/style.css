@@ -15,7 +15,7 @@
 /* ============= Header ============= */
 .header {
     display: flex;
-    background-color:#006766;
+    background-color:var(--primaryColor);
     box-shadow: 0px 4px 100px var(--fontColorBlack);
 }
 .navBar{
@@ -105,8 +105,8 @@
     padding: 90px;
 }
 .containerServicio{
+    padding: 30px;
     display: grid;
-    border: gray solid;
     border-radius: 10px;
     box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
     grid-template-columns:repeat(3, 1fr);
@@ -128,7 +128,7 @@
 
 .contacto {
     display: flex;
-    background-color: #006766;
+    background-color: var(--primaryColor);
     margin-bottom: 30px;
     color: white;
     padding: 90px;
@@ -208,10 +208,11 @@
     text-align: center;
 }
 .containerGaleria{
-    padding: 20px;
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:30px;
+    margin-bottom: 50px;
 
 }
 .itemGaleria {
