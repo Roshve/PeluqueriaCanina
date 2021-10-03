@@ -16,7 +16,7 @@
 .header {
     display: flex;
     background-color:var(--primaryColor);
-    box-shadow: 0px 4px 100px var(--fontColorBlack);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .navBar{
     display: flex;
@@ -36,7 +36,13 @@
     font-weight: bold;
 }
 .mainNavItem a:hover{
+    transition: 0.5s;
     color: var(--secundaryColor);
+}
+.boxUser{
+    display: flex;
+    padding-left: 20px; ;
+    border-left:rgba(255, 255, 255, 0.692) solid ;
 }
 
 /* ============= Main Carrousel ============= */
@@ -119,6 +125,7 @@
     align-items: center;
 }
 .servicioHeader{
+    font-size: 24px;
     color: var(--primaryColor);
 }
 .servicioItem{
@@ -215,14 +222,22 @@
     margin-bottom: 50px;
 
 }
+
 .itemGaleria {
+    border-radius: 10px;
+    background: rgba(0,0,0);
     position: relative;
 }
 .itemImg{
+    opacity: 0.5;
     border-radius: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.itemImg:hover{
+    transition: 0.5s;
+    opacity: 1;
 }
 .itemTitulo{
     text-align: center;
@@ -239,27 +254,55 @@
 
 /* ============= Footer ============= */
 .footer {
-    height: 292px;
+    padding: 60px 0px;
     display: flex;
-    /* border: solid red; */
-    background-color: #006766;
+    background-color:var(--primaryColor);
     flex-direction: row;
     justify-content: center;
 }
-
-.ulListFooter {
- /*    border: solid red; */
-    list-style-type: none;
+.footer img{
+    align-self: center;
 }
+
 .redesSociales{
+    display: flex;
+    flex-direction: column;
+}
+.redesSociales h3{
+    font-size: 24px;
     color: var(--fontColorWhite);
     font-weight: bold;
-/*     border:solid red; */
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+}
+.ulListFooter {
+    color: var(--fontColorWhite);
+    list-style-type: none;
+}
+.ulListFooter h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.ulListFooter li{
+    margin: 10px 0px;
 }
 .footerLink {
     color: var(--fontColorWhite);
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
-    /* border:solid red; */
+}
+
+.footerLink:hover{
+    transition: 0.5s;
+    color: var(--secundaryColor);
+}
+
+.copyright{
+    padding: 40px 0px;
+    color: var(--fontColorWhite);
+    background-color: var(--primaryColor);
+    text-align: center;
 }
