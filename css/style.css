@@ -12,6 +12,7 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+
 /* ============= Header ============= */
 .header {
     display: flex;
@@ -70,7 +71,9 @@
 
 /* ============= Main Novedades ============= */
 .sectionNovedades{
-    background-color: var(--primaryColor);
+    background-color: #772f1a;
+background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+
 }
 
 .mainNovedades{
@@ -109,8 +112,10 @@
 
 .sectionServicio{
     padding: 90px;
+
 }
 .containerServicio{
+    background: white;
     padding: 30px;
     display: grid;
     border-radius: 10px;
@@ -195,6 +200,8 @@
     padding: 13px 0px 0px 13px;
 }
 
+
+
 .btnSubmit{
     width: 380px;
     height: 50px;
@@ -203,7 +210,21 @@
     font-weight: bold;
     font-size: 18px;
     color: var(--fontColorBlack);
-    background-color: #FCED9C;
+    background: #FCED9C;
+}
+
+
+.patitaSubmit{
+    position: relative;
+    right: 160px;
+}
+.patitaSubmit:hover{
+    transition: 1s;
+    transform:rotate(360deg);
+}
+.btnSubmit:hover{
+    transition: ease 1s;
+    background: #ed4264;
 }
 
 
