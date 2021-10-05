@@ -6,135 +6,23 @@
     --fontColorBlack:#2E2E2E;
     --fontColorWhite: #FDF9F9;
 }
-* {
-    margin: 0 auto;
-    padding: 0 auto;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+body {
+    font-family: 'Nunito', sans-serif !important;
 }
-
 /* ============= Header ============= */
 .header {
-    display: flex;
     background-color:var(--primaryColor);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.navBar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.mainNav{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-}
-.mainNavItem a {
-    color: var(--fontColorWhite);
-    margin: 20px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-.mainNavItem a:hover{
-    transition: 0.5s;
-    color: var(--secundaryColor);
-}
-.boxUser{
-    display: flex;
-    padding-left: 20px; ;
-    border-left:rgba(255, 255, 255, 0.692) solid ;
-}
-
 /* ============= Main Carrousel ============= */
-.carrousel {
-    margin: 0 auto;
-    padding: 0 auto;
-    background: black;
-}
-.mainTitleCarrousel{
-    color: var(--fontColorWhite);
-    margin: 20vh;
-    font-size: 36px;
-    position: absolute;
-}
-.mainTitle{
-    font-size: 52px;
-    color: var(--secundaryColor);
-}
-.imgCarrousel {
-    display: flex;
-    justify-items: center;
-    height: 95vh;
-    width: 100%;
-}
 
 /* ============= Main Novedades ============= */
-.sectionNovedades{
-    background-color: #772f1a;
-background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
-
+.bg-glt {
+    background-color:var(--primaryColor);
 }
-
-.mainNovedades{
-    display: flex;
-    padding: 90px 102px;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow:wrap;
-    width: auto;
-}
-.mainNovedadesCard{
-    display: flex;
-    margin: 10px 0px;
-    flex-direction: column;
-    border-radius: 12px;
-    box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
-    width: 540px;
-    background-color: var(--fontColorWhite);
-}
-
-.mainNovedadesCard img{
-    width: 100%;
-    border-radius: 12px 12px 0px 0px;
-    background-size:cover;
-    background-blend-mode: soft-light;
-}
-.mainNovedadesCard h3{
-    padding: 20px;
-}
-.mainNovedadesCard p {
-    padding: 0px 20px;
-    margin-bottom: 20px;
-}
-
 /* ============= Main Servicios ============= */
 
-.sectionServicio{
-    padding: 90px;
-
-}
-.containerServicio{
-    background: white;
-    padding: 30px;
-    display: grid;
-    border-radius: 10px;
-    box-shadow: 10px 8px 18px 0px var(--fontColorBlack);
-    grid-template-columns:repeat(3, 1fr);
-    grid-auto-rows: 50px;
-}
-
-.servicioHeader, .servicioItem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.servicioHeader{
-    font-size: 24px;
-    color: var(--primaryColor);
-}
-.servicioItem{
-    color: var(--fontColorBlack);
+.bg-glt2 {
+    background: var(--secundaryColor);
 }
 /* ============= Main Contactanos ============= */
 
@@ -327,3 +215,8 @@ background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
     background-color: var(--primaryColor);
     text-align: center;
 }
+
+/* Boostrap */
+
+/* Header */
+
