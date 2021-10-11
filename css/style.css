@@ -162,7 +162,7 @@ body {
 
 
 /* ============= Footer ============= */
-.footer {
+/* .footer {
     padding: 60px 0px;
     display: flex;
     background-color:var(--primaryColor);
@@ -214,7 +214,7 @@ body {
     color: var(--fontColorWhite);
     background-color: var(--primaryColor);
     text-align: center;
-}
+} */
 
 /* Boostrap */
 
