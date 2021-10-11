@@ -25,96 +25,9 @@ body {
     background: var(--secundaryColor);
 }
 /* ============= Main Contactanos ============= */
-
-.contacto {
-    display: flex;
-    background-color: var(--primaryColor);
-    margin-bottom: 30px;
-    color: white;
-    padding: 90px;
-    justify-content: center;
+.bg-glt3 {
+    background:#005252;
 }
-
-.contactoLeft{
-    background-color: #005252;
-    padding: 86px;
-    border-radius: 5px;
-    margin:0 auto;
-    width: 576px;
-    height: 584px;
-}
-.contactoLeft h3 {
-    font-size: 30px;
-    font-weight: bold;
-}
-.contactoLeft p {
-    font-size: 18px;
-    margin-top: 55px;
-}
-
-.contactoRight{
-    display: flex;
-    background-color: white;
-    color: black;
-    padding: 78px;
-    margin: 0 auto;
-    border-radius: 5px;
-    width: 576px;
-    height: 584px;
-    justify-content: center;
-}
-
-.btnInput {
-    width: 380px;
-    height: 50px;
-    margin-bottom: 35px;
-    border-radius: 5px;
-    border: solid 2px;
-}
-
-.btnInput::placeholder{
-    font-size: 18px;
-    padding-left: 20px;
-}
-.contactoRight textarea{
-    width: 380px;
-    height: 156px;
-    border-radius: 5px;
-    border: solid 2px;
-    margin-bottom: 37px;
-}
-.contactoRight textarea::placeholder{
-    font-size: 18px;
-    padding: 13px 0px 0px 13px;
-}
-
-
-
-.btnSubmit{
-    width: 380px;
-    height: 50px;
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    font-size: 18px;
-    color: var(--fontColorBlack);
-    background: #FCED9C;
-}
-
-
-.patitaSubmit{
-    position: relative;
-    right: 160px;
-}
-.patitaSubmit:hover{
-    transition: 1s;
-    transform:rotate(360deg);
-}
-.btnSubmit:hover{
-    transition: ease 1s;
-    background: #ed4264;
-}
-
 
 /* ============= Main galeria y tienda ============= */
 
@@ -160,61 +73,8 @@ body {
     border-radius: 10px;
 }
 
-
 /* ============= Footer ============= */
-/* .footer {
-    padding: 60px 0px;
-    display: flex;
-    background-color:var(--primaryColor);
-    flex-direction: row;
-    justify-content: center;
-}
-.footer img{
-    align-self: center;
-}
 
-.redesSociales{
-    display: flex;
-    flex-direction: column;
-}
-.redesSociales h3{
-    font-size: 24px;
-    color: var(--fontColorWhite);
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.container{
-    display: flex;
-}
-.ulListFooter {
-    color: var(--fontColorWhite);
-    list-style-type: none;
-}
-.ulListFooter h3 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-.ulListFooter li{
-    margin: 10px 0px;
-}
-.footerLink {
-    color: var(--fontColorWhite);
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.footerLink:hover{
-    transition: 0.5s;
-    color: var(--secundaryColor);
-}
-
-.copyright{
-    padding: 40px 0px;
-    color: var(--fontColorWhite);
-    background-color: var(--primaryColor);
-    text-align: center;
-} */
 
 /* Boostrap */
 

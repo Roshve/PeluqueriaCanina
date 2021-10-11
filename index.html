@@ -217,33 +217,42 @@
         </div>
       </div>
     </section>
-    <section id="contacto" class="contacto">
-      <div class="contactoLeft">
-        <h3>Contactanos</h3>
-        <p>
-          Completá con los datos pedidos y así podremos ayudarte.<br /><br />
-          Recordá antes consultar las preguntas frecuentes
-        </p>
-        <p>Av. Pres. Dr. Nestor C. Kirchner 1853, Río Gallegos, Santa Cruz</p>
-        <p>gentlecanscontact@gmail.com</p>
-        <p>02966 15-70-6716</p>
-      </div>
-      <div class="contactoRight">
-        <form action="#" method="POST">
-          <div>
-            <input class="btnInput" type="text" name="nombre" placeholder="Nombre completo" />
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <div class=" col-sm-4 col-md-6 col-lg-6">
+            <div class="card text-white bg-success">
+              <div class="card-body">
+                <h3 class="card-title mt-3 mb-3">Contactanos</h3>
+                <p class="card-text py-3">Completa con los datos pediddos y asi podremos ayudarte</p>
+                <p class="card-text py-3">Recordá antes consultar las preguntas frecuentes</p>
+                <p class="card-text py-3">Av. Pres. Dr. Nestor C. Kirchner 1853, Río Gallegos, Santa Cruz</p>
+                <p class="card-text py-3">gentlecanscontact@gmail.com</p>
+                <p class="card-text py-3">02966 15-70-6716</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <input class="btnInput" type="email" name="mail" placeholder="Email" />
+          <div class="col-sm-4 col-md-6 col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <form>
+                  <div class="px-5 pt-5 pb-3">
+                    <input type="text" class="form-control border-dark border-2" placeholder="Nombre completo" aria-label="First name">
+                  </div>
+                  <div class="px-5 py-3">
+                    <input type="email" class="form-control border-dark border-2" placeholder="Email" aria-label="email">
+                  </div>
+                  <div class="px-5 py-3">
+                    <textarea class="form-control border-dark border-2" placeholder="Consultanos sobre nuestros servicios..." rows="3"></textarea>
+                  </div>
+                  <div class="px-5 pt-3 pb-5">
+                    <button type="submit" class="btn btn-primary col-12">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
-          <div>
-            <textarea placeholder="Consultanos sobre nuestros servicios..." cols="30" rows="10"></textarea>
-          </div>
-          <div class="caja">
-            <input class="btnSubmit" type="submit" value="Enviar" />
-            <img class="patitaSubmit" src="./assets/iconPatita.svg" alt="Patita" />
-          </div>
-        </form>
+        </div>
       </div>
     </section>
   </main>
