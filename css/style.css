@@ -1,81 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-:root{
-    /*======= Colores =======*/
-    --primaryColor:#006766;
-    --secundaryColor:#FCED9C;
-    --fontColorBlack:#2E2E2E;
-    --fontColorWhite: #FDF9F9;
-}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+/*======= Colores =======*/
 body {
-    font-family: 'Nunito', sans-serif !important;
-}
+  font-family: 'Nunito', sans-serif !important; }
+
 /* ============= Header ============= */
 .header {
-    background-color:var(--primaryColor);
-}
-/* ============= Main Carrousel ============= */
+  background-color: #006766; }
 
-/* ============= Main Novedades ============= */
 .bg-glt {
-    background-color:var(--primaryColor);
-}
-/* ============= Main Servicios ============= */
+  background-color: #006766; }
 
 .bg-glt2 {
-    background: var(--secundaryColor);
-}
-/* ============= Main Contactanos ============= */
+  background: #FCED9C; }
+
 .bg-glt3 {
-    background:#005252;
-}
+  background: #005252; }
 
-/* ============= Main galeria y tienda ============= */
+/* ============= Main galeria ============= */
+.h2-galeria {
+  color: #006766;
+  margin: 50px;
+  text-align: center; }
 
-.galeriaTitulo{
-    color: var(--primaryColor);
-    margin: 50px;
-    text-align: center;
-}
-.containerGaleria{
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:30px;
-    margin-bottom: 50px;
-
-}
-
-.itemGaleria {
+.div-galeria {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-bottom: 50px; }
+  .div-galeria__item {
     border-radius: 10px;
-    background: rgba(0,0,0);
-    position: relative;
-}
-.itemImg{
-    opacity: 0.5;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.itemImg:hover{
-    transition: 0.5s;
-    opacity: 1;
-}
-.itemTitulo{
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    color: var(--fontColorWhite);
-    background:linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    border-radius: 10px;
-}
+    background: black;
+    position: relative; }
+    .div-galeria__item__imagen {
+      opacity: 0.5;
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .div-galeria__item__titulo {
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      color: #FDF9F9;
+      background: linear-gradient(rgba(255, 255, 255, 0), black);
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+      border-radius: 10px; }
+    .div-galeria__item :hover {
+      transition: 0.5s;
+      opacity: 1; }
 
 /* ============= Footer ============= */
-
-
 /* Boostrap */
-
 /* Header */
