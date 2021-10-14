@@ -52,6 +52,21 @@ body {
       transition: 0.5s;
       opacity: 1; }
 
-/* ============= Footer ============= */
-/* Boostrap */
-/* Header */
+/* ============= Main Cursos ============= */
+.section__contenedor {
+  padding: 1% 4%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.section__title {
+  padding: 1% 4%; }
+
+.section__video {
+  background-color: #922828;
+  height: 312px;
+  width: 516px;
+  padding: 20px; }
+
+.section__Informacion {
+  margin-top: 20px; }

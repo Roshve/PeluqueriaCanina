@@ -74,6 +74,24 @@ body {
     }
 }
 
-/* Boostrap */
-
-/* Header */
+/* ============= Main Cursos ============= */
+.section {
+    &__contenedor{
+    padding: 1% 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    &__title{
+        padding: 1% 4%;
+    }
+    &__video{
+        background-color: rgba(146, 40, 40,1);
+        height: 312px;
+        width: 516px;
+        padding: 20px;
+    }
+    &__Informacion{
+        margin-top: 20px;
+    }
+}
