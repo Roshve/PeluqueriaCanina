@@ -75,6 +75,11 @@ body {
 }
 
 /* ============= Main Cursos ============= */
+@mixin sizes($width, $height) {
+  height: $height;
+  width: $width;
+}
+
 .section {
   &__contenedor {
     padding: 1% 4%;
@@ -83,22 +88,25 @@ body {
     flex-wrap: wrap;
     align-items: center;
 
-    @mixin sizes($width, $height) {
-      height: $height;
-      width: $width;
-    }
     &--video {
-      @include sizes(1000px, 50px);
+      @include sizes(1000px, 500px);
       background-color: $primaryColor;
       padding: 20px;
       margin-bottom: 50px;
     }
   }
-
+  @for $i from 1 to 9 {
+    &__prueba-#{$i} {font-size: 0.25rem * $i;}
+  }
   &__title {
     padding: 1% 4%;
   }
 
+  @each $color in $fontColorBlack, $fontColorWhite, $primaryColor, $secundaryColor {
+    .bg-#{$color}{
+      background-color: $color;
+    }
+  }
 
   &__Informacion {
     margin-top: 20px;
