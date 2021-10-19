@@ -62,9 +62,10 @@ body {
   .section__contenedor--video {
     height: 25rem;
     width: 50rem;
-    background-color: #006766;
-    padding: 20px;
-    margin-bottom: 50px; }
+    background-color: #FCED9C;
+    padding: 40px 40px 0 0;
+    margin-bottom: 50px;
+    border-radius: 6px; }
 
 .section__prueba-1 {
   font-size: 0.25rem; }
@@ -150,8 +151,10 @@ body {
   max-height: 125px; }
   .calendar ol.day-grid li:hover {
     transition: .7s ease;
-    color: #FDF9F9;
-    background: #006766; }
+    color: #FCED9C;
+    background: #006766;
+    border-radius: 8px;
+    transform: scale(1.3); }
 
 .calendar ul.weekdays abbr[title] {
   border: none;

@@ -90,9 +90,10 @@ body {
 
     &--video {
       @include sizes(50rem, 25rem);
-      background-color: $primaryColor;
-      padding: 20px;
+      background-color: $secundaryColor;
+      padding: 40px 40px 0 0;
       margin-bottom: 50px;
+      border-radius: 6px;
     }
   }
   @for $i from 1 to 9 {
@@ -163,8 +164,10 @@ body {
 
     &:hover {
       transition: .7s ease;
-      color: $fontColorWhite;
+      color: $secundaryColor;
       background: $primaryColor;
+      border-radius: 8px;
+      transform: scale(1.3);
     }
   }
 
