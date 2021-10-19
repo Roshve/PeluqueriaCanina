@@ -60,9 +60,9 @@ body {
   flex-wrap: wrap;
   align-items: center; }
   .section__contenedor--video {
-    background-color: #006766;
-    height: 600px;
+    height: 50px;
     width: 1000px;
+    background-color: #006766;
     padding: 20px;
     margin-bottom: 50px; }
 
