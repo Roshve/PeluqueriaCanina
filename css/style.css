@@ -60,8 +60,8 @@ body {
   flex-wrap: wrap;
   align-items: center; }
   .section__contenedor--video {
-    height: 500px;
-    width: 1000px;
+    height: 25rem;
+    width: 50rem;
     background-color: #006766;
     padding: 20px;
     margin-bottom: 50px; }
@@ -116,7 +116,7 @@ body {
   justify-content: center;
   margin-bottom: 2em;
   background: #006766;
-  color: #fff;
+  color: #FDF9F9;
   min-height: 10vh;
   text-align: center; }
 
